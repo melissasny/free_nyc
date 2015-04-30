@@ -24,6 +24,16 @@ gem 'jquery-rails'
 
 gem 'seed_dump', '~> 3.1.0'
 
+group :development, :test do
+	gem 'sqlite3'
+	gem 'sqlite3-ruby'
+end
+
+group :production do
+	gem 'pg'
+	gem 'thin'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
