@@ -1,0 +1,12 @@
+<%= form_tag("/events/display", method: "get") do %>
+<p></p>
+<p></p>
+<p></p>
+<p>
+  <%= label_tag(:date_selected, "Date:") %>
+  <%= select_tag(:date_selected, options_for_select(@date_range, params[:date_selected])) %>
+</p>
+  <%= label_tag(:locations_selected, "Location(s):") %>
+  <%= select_tag(:locations_selected, options_for_select(@locations, params[:locations_selected]),{:multiple => true, :size => 3}) %>
+  <p><%= submit_tag("Go!") %></p>
+<% end %>

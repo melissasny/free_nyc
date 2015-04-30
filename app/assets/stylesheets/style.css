@@ -1,0 +1,27 @@
+body{
+	color: #00782A;
+}
+
+button {
+	background: #FFF;
+	color: #003688;
+	border:1px solid #003688;
+	 /*include browser-specific prefixes for CSS3 element*/
+    -webkit-border-radius: 0.5em 0.5em; 
+    -ie-border-radius: 0.5em 0.5em; 
+    border-radius:0.5em 0.5em;
+}
+
+ul{
+    list-style-type:none;    
+}
+
+input[type=submit] {
+	background: #FFF;
+	color: #E21836;
+	border:1px solid #E21836;
+	 /*include browser-specific prefixes for CSS3 element*/
+    -webkit-border-radius: 0.5em 0.5em; 
+    -ie-border-radius: 0.5em 0.5em; 
+    border-radius:0.5em 0.5em;
+}

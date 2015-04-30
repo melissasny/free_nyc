@@ -1,0 +1,19 @@
+<p><%= notice %></p>
+
+<br>
+
+<p><%= @event.name %></p>
+<p><%= @event.website %></p>
+<p><%= @event.category_id %></p>
+<p><%= @event.borough %></p>
+<p><%= @event.address %></p>
+<p><%= @event.start_time %></p>
+<p><%= @event.start_date %></p>
+<p><%= @event.end_date %></p>
+<p><%= @event.days_of_week %></p>
+<p><%= @event.notes %></p>
+
+<%= link_to "Back to index", events_path %>
+<br>
+<br>
+<%= link_to "Edit event", edit_event_path(@event) %>

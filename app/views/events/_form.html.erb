@@ -1,0 +1,25 @@
+<%= form_for @event do |f| %>
+	<p><%= @event.errors.full_messages.first %><p>
+
+	<p><%= f.label :name, "Event name:  " %><%= f.text_field :name  %></p>
+
+	<p><%= f.label :website, "Website, incl. http://  " %><%= f.text_field :website  %></p>
+
+	<p><%= f.label :category_id, "Category:  " %><%= f.select :category_id, options_from_collection_for_select(Category.order("id"), :id, :name, @event.category_id) %></p>
+
+	<p><%= f.label :borough, "Borough:  " %><%= f.select(:borough, options_for_select(@boroughs, @event.borough)) %></p>
+
+	<p><%= f.label :address, "Address:  " %><%= f.text_field :address  %></p>
+
+	<p><%= f.label :start_time, "Time:  " %><%= f.text_field :start_time  %></p>
+
+	<p><%= f.label :start_date,"Start date: yymmdd  "%><%= f.text_field :start_date  %></p>
+
+	<p><%= f.label :end_date, "End date: yymmdd  " %><%= f.text_field :end_date  %></p>
+
+	<p><%= f.label :days_of_week, "Days of week: 0 = Sunday, 1 = Monday, etc.  "%><%= f.text_field :days_of_week  %></p>
+
+	<p><%= f.label :notes, "Notes:  " %><%= f.select(:notes, options_for_select(@notes, @event.notes)) %></p>
+	
+	<p><%= f.submit %></p>
+<% end %>

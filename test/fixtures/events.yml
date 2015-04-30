@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  address: MyString
+  borough: MyString
+  days_of_week: MyString
+  end_date: MyString
+  start_date: MyString
+  start_time: MyString
+  website: MyString
+  category: 
+
+two:
+  name: MyString
+  address: MyString
+  borough: MyString
+  days_of_week: MyString
+  end_date: MyString
+  start_date: MyString
+  start_time: MyString
+  website: MyString
+  category: 

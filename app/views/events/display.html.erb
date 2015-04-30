@@ -1,0 +1,46 @@
+<%= render 'formd' %>
+
+<% if @date_selected.class == Date %>
+  
+    <% @categories.each do |category| %>
+
+        <button type="button"><%= category.name %></button>
+
+        <% x = 0 %>
+
+        <ul>
+
+        <%category.events.each do |event| %>
+            
+            <% if (@locations_selected.include? event.borough) &&
+            (event.days_of_week.include? @day_of_week_selected) &&
+            (Date.parse(event.start_date) <= @date_selected) && 
+            (Date.parse(event.end_date) >= @date_selected) %>
+            
+                    <li>
+                    <p><%= link_to "#{event.name}", "#{event.website}" %></p>
+                    <p><%= "#{event.start_time} " %></p>
+                    <p>
+                        <% if @locations_selected.length >1 %>
+                            <%= "#{event.borough}: " %>
+                        <% end %>
+                        <%= event.address %>
+                    </p>
+                    <p>
+                        <%= event.notes %>
+                    </p>
+                    </li>
+
+                    <% x = x+1 %>
+                 
+            <% end %>
+
+        <% end %>
+        
+        <% if x === 0 %>
+            <li><%= "Sorry, no events for this date" %><li>
+        <% end %>
+
+        </ul>
+    <% end %>
+<% end %>

@@ -1,0 +1,40 @@
+<p><%= notice %></p>
+
+<%= link_to "Enter new event", new_event_path %>
+
+<h3>Event Index</h3> 
+
+<table>
+    <thead>
+        <th>Event</th>
+        <th>Cat</th>
+        <th>Borough</th>
+        <th>Address</th>
+        <th>Time</th>
+        <th>Start Date</th>
+        <th>End date</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+<% @events.each do |event| %>
+
+        <tr>
+            <td><%= link_to "#{event.name}", "#{event.website}" %></td>
+            <td><%= event.category_id %></td>
+            <td><%= event.borough %></td>
+            <td><%= event.address %></td>
+            <td><%= event.start_time %></td>
+            <td><%= event.start_date %></td>
+            <td><%= event.end_date %></td>
+            <td><%= link_to 'Edit', edit_event_path(event) %></td>
+            <td><%= link_to 'Copy', copy_event_path(event) %></td>
+            <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+
+<% end %>
+    </tbody>
+</table>
+<br>
+<%= link_to "Enter new event", new_event_path %>
