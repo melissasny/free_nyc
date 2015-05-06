@@ -29,6 +29,9 @@
                     <p>
                         <%= event.notes %>
                     </p>
+                    <button type="button">
+                        <%= link_to "Directions", "http://maps.google.com/maps?daddr=140 W 69th St.,#{event.borough},NY" %>
+                    </button>
                     </li>
 
                     <% x = x+1 %>
