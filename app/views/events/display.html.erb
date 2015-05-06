@@ -38,7 +38,11 @@
         <% end %>
         
         <% if x === 0 %>
-            <li><%= "Sorry, no events for this date" %><li>
+            <% if category.name.downcase === "other" %>
+                <% temp = "other events" %>
+            <% else temp = category.name.downcase %>
+            <% end %>
+            <li><%= "Sorry, no free #{temp} for this date." %><li>
         <% end %>
 
         </ul>
