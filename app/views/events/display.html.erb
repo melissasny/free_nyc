@@ -39,10 +39,10 @@
         
         <% if x === 0 %>
             <% if category.name.downcase === "other" %>
-                <% temp = "other events" %>
-            <% else temp = category.name.downcase %>
+                <% temp_category = "other events" %>
+            <% else temp_category = category.name.downcase %>
             <% end %>
-            <li><%= "Sorry, no free #{temp} for this date." %><li>
+            <li><%= "Sorry, no free #{temp_category} for this date." %><li>
         <% end %>
 
         </ul>

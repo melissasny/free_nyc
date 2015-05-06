@@ -52,6 +52,13 @@ class EventsController < ApplicationController
 
   def display
     @categories = Category.joins(:events).uniq
+    @categories_to_choose_from = ["All"]
+    x = 0
+      while x < @categories.size
+        @categories_to_choose_from << @categories[x].name
+        x = x+1
+      end
+
     @locations = ["All boroughs", "Manhattan", "Brooklyn", "Queens", "the Bronx", "Staten Island"]
     @date_range = []
 
@@ -78,6 +85,11 @@ class EventsController < ApplicationController
 
       if @locations_selected[0] === "All boroughs"
         @locations_selected = @boroughs
+      end
+
+      @categories_selected = params[:categories_selected]
+      if @categories_selected[0] != "All"
+        @categories = @categories.where(:name => @categories_selected)
       end
 
     end
