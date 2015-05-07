@@ -26,7 +26,7 @@ class EventsController < ApplicationController
       "Pre-screening performances at 7 pm; films begin at sundown.",
       "Outdoors; 3,100 seats - first-come, first-served.",
       "Films begin at dusk and are open-captioned.",
-      "Limited ground seating only, available 1-2 hours before event.",
+      "W. 72nd Track & Lawn in Riverside Park. Ground seating 1-2 hours before event.",
       "Approx. 250 chairs plus ground seating.",
       "Doors open at 7pm.",
       "Seating begins at 6:30 on Friday, 7 all other days.",
