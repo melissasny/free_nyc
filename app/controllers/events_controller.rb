@@ -5,9 +5,16 @@ class EventsController < ApplicationController
   def shared_content
     @boroughs = ["Manhattan", "Brooklyn", "Queens", "the Bronx", "Staten Island"]
     @notes = ["  ", 
-      "See event website for directions.",
-      "See venue website for directions.",
+      "Gates open at 6. Bandshell, 9th St. & Prospect Park West.",
+      "Gates open at 6:30. Bandshell, 9th St. & Prospect Park West.",
+      "Gates open at 3. Bandshell, 9th St. & Prospect Park West.",
+      "Gates open at 7. Bandshell, 9th St. & Prospect Park West.",
+      "Great Lawn, mid-park between 79th and 85th Streets.",
+      "Pier 1: enter the park at Riverside and W. 68th St.",
+      "Cedar Hill: 5th Ave. & E. 79th St.",
+      "Screening is outdoors on the library steps.",
       "Tickets required, see event website",
+      "Movie showing is at the touchdown of the 103rd St. Footbridge.",
       "Doors open 1 hour before show.",
       "Closed on legal holidays.",
       "Movie begins at sunset.", 
