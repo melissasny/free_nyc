@@ -16,6 +16,11 @@
             (event.days_of_week.include? @day_of_week_selected) &&
             (Date.parse(event.start_date) <= @date_selected) && 
             (Date.parse(event.end_date) >= @date_selected) %>
+
+            <% temp_city = event.borough %>
+            <% if temp_city === "Manhattan" %>
+            <% then temp_city = "New York" %>
+            <% end %>
             
                     <li>
                     <p><%= link_to "#{event.name}", "#{event.website}" %></p>
@@ -30,7 +35,7 @@
                         <%= event.notes %>
                     </p>
                     <button type="button">
-                        <%= link_to "Directions", "http://maps.google.com/maps?daddr=W. 72nd St. and Riverside Dr., New York,NY" %>
+                        <%= link_to "Directions", "http://maps.google.com/maps?daddr=#{event.address}, #{temp_city}, NY" %>
                     </button>
                     </li>
 

@@ -10,9 +10,10 @@
         <th>Cat</th>
         <th>Borough</th>
         <th>Address</th>
-        <th>Time</th>
+<!---        <th>Time</th>
         <th>Start Date</th>
         <th>End date</th>
+-->     <th>Directions</th>   
         <th></th>
         <th></th>
         <th></th>
@@ -20,14 +21,23 @@
     <tbody>
 <% @events.each do |event| %>
 
+    <% temp_city = event.borough %>
+            <% if temp_city === "Manhattan" %>
+            <% then temp_city = "New York" %>
+            <% end %>
+
+
         <tr>
             <td><%= link_to "#{event.name}", "#{event.website}" %></td>
             <td><%= event.category_id %></td>
             <td><%= event.borough %></td>
             <td><%= event.address %></td>
-            <td><%= event.start_time %></td>
+<!---            <td><%= event.start_time %></td>
             <td><%= event.start_date %></td>
             <td><%= event.end_date %></td>
+-->         <td><button type="button">
+                        <%= link_to "Directions", "http://maps.google.com/maps?daddr=#{event.address}, #{temp_city}, NY" %>
+                    </button></td> 
             <td><%= link_to 'Edit', edit_event_path(event) %></td>
             <td><%= link_to 'Copy', copy_event_path(event) %></td>
             <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
