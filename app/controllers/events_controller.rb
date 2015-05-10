@@ -30,6 +30,7 @@ class EventsController < ApplicationController
       "Approx. 250 chairs plus ground seating.",
       "Doors open at 7pm.",
       "Seating begins at 6:30 on Friday, 7 all other days.",
+      "At the Elinor Bunin Munroe Film Center.",
       "Admission is pay as you wish.",
       "Admission is pay as you wish from 5:45 - 7:15 pm. The museum closes at 7:45.",
       "Admission is pay as you wish from 11 - 1. The museum closes at 5 pm.",
