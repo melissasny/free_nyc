@@ -1,3 +1,5 @@
+<div id = "display">
+
 <%= render 'formd' %>
 
 <% if @date_selected.class == Date %>
@@ -11,6 +13,8 @@
         <ul>
 
         <%category.events.each do |event| %>
+
+            
             
             <% if (@locations_selected.include? event.borough) &&
             (event.days_of_week.include? @day_of_week_selected) &&
@@ -22,6 +26,7 @@
             <% then temp_city = "New York" %>
             <% end %>
             
+                <div id="listing">
                     <li>
                     <p><%= link_to "#{event.name}", "#{event.website}" %></p>
                     <p><%= "#{event.start_time} " %></p>
@@ -31,13 +36,12 @@
                         <% end %>
                         <%= event.address %>
                     </p>
-                    <p>
-                        <%= event.notes %>
+                    <p><%= event.notes %></p>
+                    <p id="directions">
+                        <%= link_to "Directions", "http://maps.google.com/maps?daddr=#{event.address}, #{temp_city}, NY" %>
                     </p>
-                    <button type="button">
-                        <%#= link_to "Directions", "http://maps.google.com/maps?daddr=#{event.address}, #{temp_city}, NY" %>
-                    </button>
                     </li>
+                </div>
 
                     <% x = x+1 %>
                  
@@ -50,9 +54,10 @@
                 <% temp_category = "other events" %>
             <% else temp_category = category.name.downcase %>
             <% end %>
-            <li><%= "Sorry, no free #{temp_category} for this date." %><li>
+            <li><%= "Sorry, no free #{temp_category} for this date." %></li>
         <% end %>
 
         </ul>
     <% end %>
 <% end %>
+</div>

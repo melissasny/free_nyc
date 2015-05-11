@@ -1,5 +1,25 @@
-body{
+body {
+	width: 100%;
 	color: #00782A;
+	border:3px solid yellow;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 2em;
+	margin-bottom: 2rem;  
+	border:2px solid pink;
+}
+
+div#display{
+	width:40%;
+	margin-left: 10%;
+	border:1px solid purple;
+}
+
+form label {
+	display: inline-block;
+	width: 30%;
 }
 
 button {
@@ -12,16 +32,44 @@ button {
     border-radius:0.5em 0.5em;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+		font-weight: bold;
+}
+
 ul{
-    list-style-type:none;    
+    list-style-type: none;    
 }
 
 input[type=submit] {
+	margin: 1em 0 0 30%;
+	margin: 1rem 0 0 30%; 
 	background: #FFF;
-	color: #E21836;
-	border:1px solid #E21836;
+	color: green;
+	border:1px solid green;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
     border-radius:0.5em 0.5em;
+}
+
+div#listing{
+	margin-bottom: 2em;
+	margin-bottom: 2rem;
+}
+
+li p{
+	line-height: 0.25em;
+	line-height: 0.25rem;  
+}
+
+#directions{
+	font-style: italic;
+	margin-left: 3em;
+	margin-left: 3rem;
+	line-height: 1em;
+	line-height: 1rem; 
 }
