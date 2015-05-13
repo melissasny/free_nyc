@@ -1,9 +1,7 @@
 body {
 	width: 100%;
-	color: #00782A;
 	border:3px solid yellow;
 	font-family: 'Ubuntu', Arial, sans-serif;
-/*	font-family: Arial, Helvetica, sans-serif;  */
 	letter-spacing: -0.5px;
 }
 
@@ -14,6 +12,14 @@ header {
 	border:2px solid pink;
 	letter-spacing: -1px;
 	font-weight: normal;
+}
+
+h1, form label {
+	color: #0084B0;
+}
+
+h2, input[type=submit] {
+	color: #5BE300;
 }
 
 div#display{
@@ -29,14 +35,16 @@ form label {
 	width: 30%;
 	font-size: 1.2em;
 	font-size: 1.2rem;
+	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 
 button {
 	background: #FFF;
-	color: #003688;
+	color: #FF7D00;
 	font-size: 1.1em;
 	font-size: 1.1rem;
-	border:1px solid #003688;
+	border:1px solid #FF7D00;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
@@ -59,10 +67,9 @@ input[type=submit] {
 	margin: 1em 0 0 30%;
 	margin: 1rem 0 0 30%; 
 	background: #FFF;
-	color: green;
-	font-size: 1.2em;
-	font-size: 1.2rem;
-	border:1px solid green;
+	font-size: 1.4em;
+	font-size: 1.4rem;
+	border:1px solid #5BE300;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
@@ -70,6 +77,7 @@ input[type=submit] {
 }
 
 div#listing{
+	color: #FF0012;
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
 }
