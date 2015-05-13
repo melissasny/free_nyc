@@ -2,29 +2,40 @@ body {
 	width: 100%;
 	color: #00782A;
 	border:3px solid yellow;
+	font-family: 'Ubuntu', Arial, sans-serif;
+/*	font-family: Arial, Helvetica, sans-serif;  */
+	letter-spacing: -0.5px;
 }
 
 header {
 	text-align: center;
 	margin-bottom: 2em;
-	margin-bottom: 2rem;  
+	margin-bottom: 2rem;
 	border:2px solid pink;
+	letter-spacing: -1px;
+	font-weight: normal;
 }
 
 div#display{
 	width:40%;
-	margin-left: 10%;
+	margin-left: 30%;
+	font-size: 1.05em;
+	font-size: 1.05rem;
 	border:1px solid purple;
 }
 
 form label {
 	display: inline-block;
 	width: 30%;
+	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 
 button {
 	background: #FFF;
 	color: #003688;
+	font-size: 1.1em;
+	font-size: 1.1rem;
 	border:1px solid #003688;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
@@ -49,6 +60,8 @@ input[type=submit] {
 	margin: 1rem 0 0 30%; 
 	background: #FFF;
 	color: green;
+	font-size: 1.2em;
+	font-size: 1.2rem;
 	border:1px solid green;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
@@ -62,14 +75,17 @@ div#listing{
 }
 
 li p{
-	line-height: 0.25em;
-	line-height: 0.25rem;  
+	line-height: 1.2;
+	margin-top: 0em;
+	margin-bottom: 0.3em;
+	margin-bottom: 0.3rem;  
 }
 
 #directions{
 	font-style: italic;
-	margin-left: 3em;
-	margin-left: 3rem;
-	line-height: 1em;
-	line-height: 1rem; 
+	margin-left: 4.5em;
+	margin-left: 4.5rem; 
+	line-height: 1.2;
+	margin-top: 0.75em;
+	margin-top: 0.75rem;
 }
