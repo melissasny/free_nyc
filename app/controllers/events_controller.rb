@@ -71,7 +71,7 @@ class EventsController < ApplicationController
     @date_range = []
 
     i = 0
-      while i <= 45
+      while i <= 30
         date_label_pair = []
         if i === 0
           date_label_pair << "Today"

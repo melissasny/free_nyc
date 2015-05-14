@@ -1,24 +1,23 @@
 body {
 	width: 100%;
-	border:3px solid yellow;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
+	background: #FFF;
 }
 
 header {
 	text-align: center;
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
-	border:2px solid pink;
 	letter-spacing: -1px;
 	font-weight: normal;
 }
 
-h1, form label {
+body, h2, a {
 	color: #0084B0;
 }
 
-h2, input[type=submit] {
+h1, form label, input[type=submit] {
 	color: #5BE300;
 }
 
@@ -27,7 +26,6 @@ div#display{
 	margin-left: 30%;
 	font-size: 1.05em;
 	font-size: 1.05rem;
-	border:1px solid purple;
 }
 
 form label {
@@ -39,16 +37,22 @@ form label {
 	margin-bottom: 1rem;
 }
 
+form select {
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 1em;
+	font-size: 1rem;
+}
+
 button {
+	color: #5BE300;
 	background: #FFF;
-	color: #FF7D00;
 	font-size: 1.1em;
 	font-size: 1.1rem;
-	border:1px solid #FF7D00;
+/*	border:1px solid #FF0012; */
 	 /*include browser-specific prefixes for CSS3 element*/
-    -webkit-border-radius: 0.5em 0.5em; 
+/*    -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
-    border-radius:0.5em 0.5em;
+    border-radius:0.5em 0.5em; */
 }
 
 a {
@@ -77,7 +81,7 @@ input[type=submit] {
 }
 
 div#listing{
-	color: #FF0012;
+	color: #472C84;
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
 }
