@@ -2,57 +2,63 @@ body {
 	width: 100%;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
-	background: #FFF;
+	background: #000;
 }
 
 header {
 	text-align: center;
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
+	padding-left: 0;
+	margin-left: 5%;
+	margin-right: 5%;
 	letter-spacing: -1px;
 	font-weight: normal;
 }
 
-body, h2, a {
+body, h2, form label, a {
 	color: #0084B0;
 }
 
-h1, form label, input[type=submit] {
+h1, input[type=submit], div#listing {
 	color: #5BE300;
+}
+
+h3{
+	color: #FFD900;
+	font-size: 1.4em;
+	font-size: 1.4rem;
 }
 
 div#display{
 	width:40%;
 	margin-left: 30%;
-	font-size: 1.05em;
-	font-size: 1.05rem;
+	font-size: 1.25em;
+	font-size: 1.25rem;
 }
 
 form label {
 	display: inline-block;
 	width: 30%;
-	font-size: 1.2em;
-	font-size: 1.2rem;
-	margin-bottom: 1em;
-	margin-bottom: 1rem;
+	font-size: 1.4em;
+	font-size: 1.4rem;
+	margin-bottom: 0.5em;
+	margin-bottom: 0.5rem;
 }
 
-form select {
+form select, input[type=text] {
 	font-family: 'Ubuntu', Arial, sans-serif;
-	font-size: 1em;
-	font-size: 1rem;
+	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 
 button {
 	color: #5BE300;
-	background: #FFF;
-	font-size: 1.1em;
-	font-size: 1.1rem;
-/*	border:1px solid #FF0012; */
-	 /*include browser-specific prefixes for CSS3 element*/
-/*    -webkit-border-radius: 0.5em 0.5em; 
-    -ie-border-radius: 0.5em 0.5em; 
-    border-radius:0.5em 0.5em; */
+	background: #000;
+	font-size: 1.3em;
+	font-size: 1.3rem;
+	padding: 0.25em 0.5em;
+	padding: 0.25rem 0.5rem;
 }
 
 a {
@@ -64,15 +70,17 @@ a:hover {
 }
 
 ul{
-    list-style-type: none;    
+    list-style-type: none;   
 }
 
 input[type=submit] {
-	margin: 1em 0 0 30%;
-	margin: 1rem 0 0 30%; 
-	background: #FFF;
-	font-size: 1.4em;
-	font-size: 1.4rem;
+	margin: 0.5em 0 0.5em 30%;
+	margin: 0.5rem 0 0.5rem 30%; 
+	padding: 0.25em 0.5em;
+	padding: 0.25rem 0.5rem;
+	background: #000;
+	font-size: 1.5em;
+	font-size: 1.5rem;
 	border:1px solid #5BE300;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
@@ -81,7 +89,6 @@ input[type=submit] {
 }
 
 div#listing{
-	color: #472C84;
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
 }
@@ -93,11 +100,38 @@ li p{
 	margin-bottom: 0.3rem;  
 }
 
-#directions{
+#directions a{
 	font-style: italic;
+	color: #FFD900;
 	margin-left: 4.5em;
 	margin-left: 4.5rem; 
 	line-height: 1.2;
 	margin-top: 0.75em;
 	margin-top: 0.75rem;
+}
+
+/******************************************************************************/
+/*Media Queries*/
+/******************************************************************************/
+@media only screen and (min-width:1300px){
+    body{
+        width:1300px;
+    }
+}
+
+@media only screen and (max-width:800px){
+	div#display{
+		width: 90%;
+		margin-left: 5%;  
+	}
+	ul {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width:500px){
+    form label{
+    	width: 50%;
+        display: block;
+    }
 }
