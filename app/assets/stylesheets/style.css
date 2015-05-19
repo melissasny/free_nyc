@@ -37,6 +37,12 @@ div#display{
 	font-size: 1.25rem;
 }
 
+div#show{
+	margin-left: 10%;
+	font-size: 1.25em;
+	font-size: 1.25rem;
+}
+
 form label {
 	display: inline-block;
 	width: 30%;
@@ -108,6 +114,10 @@ li p{
 	line-height: 1.2;
 	margin-top: 0.75em;
 	margin-top: 0.75rem;
+}
+
+div#show a, div#edit a{
+	color: #FFD900;
 }
 
 /******************************************************************************/
