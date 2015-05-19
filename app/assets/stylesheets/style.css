@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
-	background: #000;
+	background: #000; 
 }
 
 header {
@@ -13,14 +13,27 @@ header {
 	margin-left: 5%;
 	margin-right: 5%;
 	letter-spacing: -1px;
+}
+
+h1, h2 {
 	font-weight: normal;
 }
 
-body, h2, form label, a {
+h1 {
+	font-size: 1.7em;
+	font-size: 1.7rem;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-size: 1.5rem;
+}
+
+body, h2, div#listing {
 	color: #0084B0;
 }
 
-h1, input[type=submit], div#listing {
+h1, form label, input[type=submit], a {
 	color: #5BE300;
 }
 
