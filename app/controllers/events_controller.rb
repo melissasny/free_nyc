@@ -19,6 +19,8 @@ class EventsController < ApplicationController
       "Doors open 1 hour before show.",
       "Closed on legal holidays.",
       "Movie begins at sunset.", 
+      "Live music and food trucks at 6. Movie begins at sundown.",
+      "Music starts at 6 pm, movies at sunset.",
       "Gates open at 6:30 pm.",
       "Gates open at 6 pm.",
       "Gates open at 7 pm.",
