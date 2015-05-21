@@ -144,8 +144,8 @@ div#show a, div#edit a{
 
 @media only screen and (max-width:800px){
 	div#display{
-		width: 90%;
-		margin-left: 5%;  
+		width: 80%;
+		margin-left: 10%;  
 	}
 	ul {
 		padding-left: 0;
@@ -153,8 +153,12 @@ div#show a, div#edit a{
 }
 
 @media only screen and (max-width:500px){
+    h2{
+    	display: none;
+    }
     form label{
     	width: 50%;
+    	color: #0084B0;
         display: block;
     }
 }
