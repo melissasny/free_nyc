@@ -459,12 +459,12 @@ Event.create!([
   {name: "Yeshiva University Museum", address: "15 West 16th Street", borough: "Manhattan", days_of_week: "135", end_date: "160201", start_date: "150501", start_time: "Mon & Wed 5 - 8 pm; Fri. 11 - 2:30 pm", website: "http://www.yumuseum.org/", category_id: 3, notes: "  "}
 ])
 Category.create!([
-  {name: "Concerts"},
-  {name: "Movies"},
-  {name: "Museums"},
-  {name: "Theater"},
-  {name: "Dance"},
-  {name: "Exhibits"},
-  {name: "Talks & Lectures"},
-  {name: "Other"}
+  {id: 1, name: "Concerts"},
+  {id: 2, name: "Movies"},
+  {id: 3, name: "Museums"},
+  {id: 4, name: "Theater"},
+  {id: 5, name: "Dance"},
+  {id: 6, name: "Exhibits"},
+  {id: 7, name: "Talks & Lectures"},
+  {id: 8, name: "Other"}
 ])
