@@ -44,6 +44,11 @@ h3{
 	font-size: 1.4rem;
 }
 
+div#specify_criteria{
+	width: 40%;
+	margin-left: 30%;
+}
+
 div#display{
 	width:60%;
 	margin-left: 20%;  
