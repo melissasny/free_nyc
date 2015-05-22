@@ -72,6 +72,16 @@ class EventsController < ApplicationController
       end
 
     @locations = ["All boroughs", "Manhattan", "Brooklyn", "Queens", "the Bronx", "Staten Island"]
+    @default_locations_selected = []
+      if params[:locations_selected].class == Array
+        @default_locations_selected = params[:locations_selected]
+      else @default_locations_selected = @locations[0]
+      end
+    @default_categories_selected = []
+      if params[:categories_selected].class == Array
+        @default_categories_selected = params[:categories_selected]
+      else @default_categories_selected = @categories_to_choose_from[0]
+      end
     @date_range = []
 
     i = 0
@@ -93,17 +103,17 @@ class EventsController < ApplicationController
       @date_selected = params[:date_selected].to_date
       @day_of_week_selected = @date_selected.strftime ('%w') 
         # Sunday = 0, Monday = 1, etc.
-      @locations_selected = params[:locations_selected]
 
-      if @locations_selected[0] === "All boroughs"
-        @locations_selected = @boroughs
-      end
+        @locations_selected = params[:locations_selected]
 
-      @categories_selected = params[:categories_selected]
-      if @categories_selected[0] != "All"
-        @categories = @categories.where(:name => @categories_selected)
-      end
+        if @locations_selected[0] === "All boroughs"
+          @locations_selected = @boroughs
+        end
 
+        @categories_selected = params[:categories_selected]
+        if @categories_selected[0] != "All"
+          @categories = @categories.where(:name => @categories_selected)
+        end
     end
   end
 
