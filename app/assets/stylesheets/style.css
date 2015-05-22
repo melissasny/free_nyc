@@ -1,27 +1,17 @@
 body {
-	overflow: hidden;
 	width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
 	background: #000; 
 }
 
 header {
-	overflow: hidden;
-	-webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
 	text-align: center;
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
-/*	padding-left: 0;
+	padding-left: 0;
 	margin-left: 5%;
-	margin-right: 5%; */
-	padding-left: 5%;
-	padding-right: 5%;
+	margin-right: 5%; 
 	letter-spacing: -1px;
 }
 
@@ -54,14 +44,8 @@ h3{
 }
 
 div#display{
-/*	width:40%;
-	margin-left: 30%;  */
-	overflow: hidden;
-	-webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-	padding-left: 30%;
-	padding-right: 30%;
+	width:40%;
+	margin-left: 30%;  
 	font-size: 1.25em;
 	font-size: 1.25rem;
 }
@@ -160,10 +144,8 @@ div#show a, div#edit a{
 
 @media only screen and (max-width:800px){
 	div#display{
-/*		width: 80%;
-		margin-left: 10%; */
-		padding-left: 10%;
-		padding-right: 10%; 
+		width: 80%;
+		margin-left: 10%; 
 	}
 	ul {
 		padding-left: 0;
