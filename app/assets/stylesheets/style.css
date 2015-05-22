@@ -1,5 +1,6 @@
 body {
 	width: 100%;
+	max-width: 100%;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
 	background: #000; 
@@ -44,8 +45,8 @@ h3{
 }
 
 div#display{
-	width:40%;
-	margin-left: 30%;  
+	width:60%;
+	margin-left: 20%;  
 	font-size: 1.25em;
 	font-size: 1.25rem;
 }
