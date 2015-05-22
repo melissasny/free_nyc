@@ -1,4 +1,9 @@
+html, body {
+	overflow-x:hidden;
+}
+
 body {
+	position:relative;
 	width: 100%;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
@@ -157,7 +162,7 @@ div#show a, div#edit a{
     	display: none;
     }
     form label{
-    	width: 50%;
+    	width: 60%;
     	color: #0084B0;
         display: block;
     }
