@@ -79,6 +79,10 @@ button {
 	font-size: 1.3rem;
 	padding: 0.25em 0.5em;
 	padding: 0.25rem 0.5rem;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
 }
 
 a {
