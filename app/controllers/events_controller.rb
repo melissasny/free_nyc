@@ -53,6 +53,8 @@ class EventsController < ApplicationController
       "Free grounds-only admission from 9 - 10 am; the grounds close at 6 pm.",
       "No free admission on Saturdays with public programs -Sakura Matsuri, Ghouls & Gourds, etc.",
       "Free hours are suspended during the World Maker Faire.",
+      "RSVPs encouraged - see event website.",
+      "RSVP required - see event website.",
       "Free ticket distribution begins at 4 pm (please check - time is subject to change)."]
   end
 
