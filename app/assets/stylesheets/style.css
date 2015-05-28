@@ -16,7 +16,7 @@ header {
 	letter-spacing: -1px;
 }
 
-h1, h2, h3, h4 a, button, form label {
+h1, h2, h3, h4, button, form label {
 	font-weight: normal;
 }
 
@@ -157,11 +157,11 @@ li p{
 }
 
 @media only screen and (max-width:500px){
-	header, h1, h2, h4 a{
+	header, h1, h2, h4{
 		margin-top: 0;
 		padding-top: 0;
 	}
-	header, h1, h2, h4 a, form select, input[type=text] {
+	header, h1, h2, h4, form select, input[type=text] {
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
