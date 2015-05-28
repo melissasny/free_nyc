@@ -161,6 +161,10 @@ li p{
 		margin-bottom: 1em;
 		margin-bottom: 1rem;
 	}
+	h1 {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
     h2{
     	display: none;
     }
@@ -168,5 +172,15 @@ li p{
     	width: 60%;
     	color: #0084B0;
         display: block;
+        margin-bottom: 0.25em;
+		margin-bottom: 0.25rem;
     }
+    input[type=submit] {
+	margin: 0.25em 0 0.5em 30%;
+	margin: 0.25rem 0 0.5rem 30%; 
+	padding: 0.25em 0.5em;
+	padding: 0.25rem 0.5rem;
+	font-size: 1.3em;
+	font-size: 1.3rem;
+	}
 }
