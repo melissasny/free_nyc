@@ -8,15 +8,15 @@ body {
 
 header {
 	text-align: center;
-	margin-bottom: 2em;
-	margin-bottom: 2rem;
+	margin-bottom: 3em;
+	margin-bottom: 3rem;
 	padding-left: 0;
 	margin-left: 5%;
 	margin-right: 5%; 
 	letter-spacing: -1px;
 }
 
-h1, h2 {
+h1, h2, h3, h4 a, button, form label {
 	font-weight: normal;
 }
 
@@ -126,7 +126,6 @@ li p{
 
 #directions a{
 	font-style: italic;
-	color: #FFD900;
 	margin-left: 4.5em;
 	margin-left: 4.5rem; 
 	line-height: 1.2;
@@ -134,7 +133,7 @@ li p{
 	margin-top: 0.75rem;
 }
 
-div#show a, div#edit a{
+#directions a, div#show a, div#edit a, h4 a{
 	color: #FFD900;
 }
 
