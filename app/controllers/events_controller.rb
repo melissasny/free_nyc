@@ -30,6 +30,7 @@ class EventsController < ApplicationController
       "Line forms at 5:30 and tickets are distributed at 6, 1 ticket/person.",
       "Pre-screening performances at 7 pm; films begin at sundown.",
       "Outdoors; 3,100 seats - first-come, first-served.",
+      "Outdoor screenings of operas; 3,100 seats - first come, first-served.",
       "Films begin at dusk and are open-captioned.",
       "W. 72nd Track & Lawn in Riverside Park. Ground seating 1-2 hours before event.",
       "Approx. 250 chairs plus ground seating.",
