@@ -1,13 +1,10 @@
 body {
 	width: 100%;
 	max-width: 100%;
+	position: absolute;
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
 	background: #000; 
-}
-
-body div {
-	overflow:hidden;
 }
 
 header {
