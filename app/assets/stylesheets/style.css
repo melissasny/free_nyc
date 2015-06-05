@@ -6,6 +6,10 @@ body {
 	background: #000; 
 }
 
+body div {
+	overflow:hidden;
+}
+
 header {
 	text-align: center;
 	margin-bottom: 3em;
@@ -34,12 +38,15 @@ body, h2, div#listing {
 	color: #0084B0;
 }
 
-h1, form label, input[type=submit], a {
+h1, form label, input[type=submit], a, button {
 	color: #5BE300;
 }
 
-h3{
+#directions a, div#show a, div#edit a, h3, h4 a{
 	color: #FFD900;
+}
+
+h3{
 	font-size: 1.4em;
 	font-size: 1.4rem;
 }
@@ -73,7 +80,6 @@ form select, input[type=text] {
 }
 
 button {
-	color: #5BE300;
 	background: #000;
 	font-size: 1.3em;
 	font-size: 1.3rem;
@@ -131,10 +137,6 @@ li p{
 	line-height: 1.2;
 	margin-top: 0.75em;
 	margin-top: 0.75rem;
-}
-
-#directions a, div#show a, div#edit a, h4 a{
-	color: #FFD900;
 }
 
 /******************************************************************************/
