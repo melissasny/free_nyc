@@ -4,6 +4,7 @@ body {
 	font-family: 'Ubuntu', Arial, sans-serif;
 	letter-spacing: -0.5px;
 	background: #000; 
+	border:2px dotted #FFF;
 }
 
 body div {
@@ -18,6 +19,7 @@ header {
 	margin-left: 5%;
 	margin-right: 5%; 
 	letter-spacing: -1px;
+	border:2px solid red;
 }
 
 h1, h2, h3, h4, button, form label {
@@ -56,6 +58,7 @@ div#display{
 	margin-left: 35%;  
 	font-size: 1.25em;
 	font-size: 1.25rem;
+	border:2px solid HotPink;
 }
 
 div#show{
