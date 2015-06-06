@@ -28,6 +28,7 @@ class EventsController < ApplicationController
       "Gates open at 3 pm.",
       "Free film tickets are available after 4pm.",
       "Line forms at 5:30 and tickets are distributed at 6, 1 ticket/person.",
+      "Line forms at 5 and tickets are distributed at 5:30, 1 ticket/person.",
       "Pre-screening performances at 7 pm; films begin at sundown.",
       "Outdoors; 3,100 seats - first-come, first-served.",
       "Outdoor screenings of operas; 3,100 seats - first come, first-served.",
