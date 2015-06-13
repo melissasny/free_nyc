@@ -25,6 +25,7 @@ class EventsController < ApplicationController
       "Gates open at 6:30. No chairs. Located on the landscape between Sheep Meadow and the 72nd Street Cross Drive.",
       "Gates open at 6 pm.",
       "Gates open at 7 pm.",
+      "Doors open at 7:30. Seating is very limited, so arrive early.",
       "Gates open at 3 pm.",
       "Free film tickets are available after 4pm.",
       "Line forms at 5:30 and tickets are distributed at 6, 1 ticket/person.",
