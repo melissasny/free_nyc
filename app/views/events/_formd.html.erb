@@ -2,14 +2,20 @@
 
   <p>
   <%= label_tag(:date_selected, "Date:") %>
+</p>
+<p>
   <%= select_tag(:date_selected, options_for_select(@date_range, params[:date_selected])) %>
   </p>
   <p>
   <%= label_tag(:locations_selected, "Location(s):") %>
+</p>
+<p>
   <%= select_tag(:locations_selected, options_for_select(@locations, @default_locations_selected),{:multiple => true, :size => 3}) %>
   </p>
   <p>
   <%= label_tag(:categories_selected, "Event type(s):") %>
+</p>
+<p>
   <%= select_tag(:categories_selected, options_for_select(@categories_to_choose_from, @default_categories_selected),{:multiple => true, :size => 3}) %>
   </p>
   <p><%= submit_tag("Go!") %></p>
