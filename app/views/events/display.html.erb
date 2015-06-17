@@ -28,14 +28,14 @@
                     <li>
                     <p><%= link_to "#{event.name}", "#{event.website}" %></p>
                     <p><%= "#{event.start_time} " %></p>
-<!---                    <p>
+                    <p>
                         <% if @locations_selected.length >1 %>
                             <%= "#{event.borough}: " %>
                         <% end %>
                         <%= event.address %>
                     </p>
                     <p><%= event.notes %></p>
--->
+
                     <p id="directions">
                         <%= link_to "Directions", "http://maps.google.com/maps?daddr=#{event.address}, #{temp_city}, NY" %>
                     </p>
