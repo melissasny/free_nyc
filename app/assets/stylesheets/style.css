@@ -20,7 +20,6 @@
 body {
 	width: 100%;
 	max-width: 100%;
-/*	font-family: 'Ubuntu', Arial, sans-serif; */
 	font-family: UbuntuFour, Arial, sans-serif;
 	letter-spacing: -0.5px;
 	background: #000; 
@@ -90,7 +89,6 @@ form label {
 }
 
 form select, input[type=text] {
-/*	font-family: 'Ubuntu', Arial, sans-serif; */
 	font-family: UbuntuFour, Arial, sans-serif;
 	font-size: 1.2em;
 	font-size: 1.2rem;
