@@ -8,11 +8,9 @@
   <%= label_tag(:locations_selected, "Location(s):") %>
   <%= select_tag(:locations_selected, options_for_select(@locations, @default_locations_selected),{:multiple => true, :size => 3}) %>
   </p>
-  <!---
   <p>
   <%= label_tag(:categories_selected, "Event type(s):") %>
   <%= select_tag(:categories_selected, options_for_select(@categories_to_choose_from, @default_categories_selected),{:multiple => true, :size => 3}) %>
   </p>
   <p><%= submit_tag("Go!") %></p>
 <% end %>
--->
