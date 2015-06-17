@@ -1,4 +1,3 @@
-<!---
 <div id = "display">
 
 <%= render 'formd' %>
@@ -14,8 +13,6 @@
         <ul>
 
         <%category.events.each do |event| %>
-
-            
             
             <% if (@locations_selected.include? event.borough) &&
             (event.days_of_week.include? @day_of_week_selected) &&
@@ -62,4 +59,3 @@
     <% end %>
 <% end %>
 </div>
--->
