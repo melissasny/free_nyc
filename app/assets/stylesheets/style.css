@@ -1,7 +1,27 @@
+@font-face {
+    font-family: UbuntuFour;
+    src: url(http://fonts.googleapis.com/css?family=Ubuntu:400);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: UbuntuFourItal;
+    src: url(http://fonts.googleapis.com/css?family=Ubuntu:400italic);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: UbuntuSeven;
+    src: url(http://fonts.googleapis.com/css?family=Ubuntu:700);
+    font-weight: 700;
+}
+
 body {
 	width: 100%;
 	max-width: 100%;
-	font-family: 'Ubuntu', Arial, sans-serif;
+/*	font-family: 'Ubuntu', Arial, sans-serif; */
+	font-family: UbuntuFour, Arial, sans-serif;
 	letter-spacing: -0.5px;
 	background: #000; 
 }
@@ -70,7 +90,8 @@ form label {
 }
 
 form select, input[type=text] {
-	font-family: 'Ubuntu', Arial, sans-serif;
+/*	font-family: 'Ubuntu', Arial, sans-serif; */
+	font-family: UbuntuFour, Arial, sans-serif;
 	font-size: 1.2em;
 	font-size: 1.2rem;
 }
@@ -93,6 +114,7 @@ a {
 
 a:hover {
 	font-weight: bold;
+	font-family: UbuntuSeven, Arial, sans-serif;
 }
 
 ul{
@@ -128,6 +150,7 @@ li p{
 
 #directions a{
 	font-style: italic;
+	font-family: UbuntuFourItal, Arial, sans-serif;
 	margin-left: 4.5em;
 	margin-left: 4.5rem; 
 	line-height: 1.2;
