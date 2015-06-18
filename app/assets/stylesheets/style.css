@@ -149,8 +149,11 @@ li p{
 #directions a{
 	font-style: italic;
 	font-family: UbuntuFourItal, Arial, sans-serif;
+	margin-left: 35%;
+/*
 	margin-left: 10.5em;
 	margin-left: 10.5rem; 
+*/
 	line-height: 1.2;
 	margin-top: 0.75em;
 	margin-top: 0.75rem;
