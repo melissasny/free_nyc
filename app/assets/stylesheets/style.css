@@ -174,11 +174,11 @@ li p{
 	}
 	header, div#display{
 		width: 100%;
-		margin-left: 10%;
+		margin-left: 20%;
 		margin-right: 0;
 	}
 	form label {
-		width: 30%;
+		width: 20%;
 	}
 	ul {
 		padding-left: 0;
