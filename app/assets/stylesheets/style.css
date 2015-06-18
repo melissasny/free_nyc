@@ -25,6 +25,10 @@ body {
 	background: #000; 
 }
 
+body > div{
+	overflow-x: hidden;
+}
+
 header {
 	text-align: center;
 	margin-bottom: 3em;
