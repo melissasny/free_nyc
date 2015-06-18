@@ -134,7 +134,7 @@ input[type=submit] {
     border-radius:0.5em 0.5em;
 }
 
-div#listing{
+div#listing {
 	margin-bottom: 2em;
 	margin-bottom: 2rem;
 }
@@ -150,15 +150,15 @@ li p{
 	font-style: italic;
 	font-family: UbuntuFourItal, Arial, sans-serif;
 	margin-left: 35%;
-/*
-	margin-left: 10.5em;
-	margin-left: 10.5rem; 
-*/
 	line-height: 1.2;
 	margin-top: 0.75em;
 	margin-top: 0.75rem;
 }
 
+div#display, form label, button, input[type=submit], h3 {
+	font-size: 1.4em;
+	font-size: 1.4rem;
+}
 /******************************************************************************/
 /*Media Queries*/
 /******************************************************************************/
@@ -187,20 +187,7 @@ li p{
 		margin-left: 20%;
 	}
 }
-/*
-@media only screen and (max-width:800px){
-	div#display{
-		width: 80%;
-		margin-left: 10%; 
-	}
-	form label {
-		width: 30%;
-	}
-	ul {
-		padding-left: 0;
-	}
-}
-*/
+
 @media only screen and (max-width:500px){
 	body{
 		width: 90%;
@@ -231,7 +218,5 @@ li p{
     input[type=submit] {
 	margin: 0.25em 0 0.5em 37%;
 	margin: 0.25rem 0 0.5rem 37%;
-	font-size: 1.3em;
-	font-size: 1.3rem;
 	}
 }
