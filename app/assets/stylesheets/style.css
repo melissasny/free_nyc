@@ -168,6 +168,26 @@ li p{
     }
 }
 
+@media only screen and (max-width:1100px){
+	body {
+		width: 90%;
+	}
+	header, div#display{
+		width: 100%;
+		margin-left: 5%;
+		margin-right: 0;
+	}
+	form label {
+		width: 30%;
+	}
+	ul {
+		padding-left: 0;
+	}
+	#directions a{
+		margin-left: 20%;
+	}
+}
+/*
 @media only screen and (max-width:800px){
 	div#display{
 		width: 80%;
@@ -180,7 +200,7 @@ li p{
 		padding-left: 0;
 	}
 }
-
+*/
 @media only screen and (max-width:500px){
 	body{
 		width: 90%;
