@@ -179,6 +179,9 @@ li p{
 }
 
 @media only screen and (max-width:500px){
+	body > div{
+		overflow-x: hidden;
+	}
 	header, h1, h2, h4{
 		margin-top: 0;
 		padding-top: 0;
