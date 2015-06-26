@@ -27,6 +27,7 @@ class EventsController < ApplicationController
       "Gates open at 7 pm.",
       "The Sculpture Garden opens at 7 pm. In the event of rain, concerts will be held in the Gund Garden Lobby.",
       "Doors open at 7:30. Seating is very limited, so arrive early.",
+      "Doors open at 6:30.",
       "Gates open at 3 pm.",
       "Free film tickets are available after 4pm.",
       "Line forms at 5:30 and tickets are distributed at 6, 1 ticket/person.",
