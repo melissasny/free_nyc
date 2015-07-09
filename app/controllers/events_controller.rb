@@ -60,6 +60,7 @@ class EventsController < ApplicationController
       "Free hours are suspended during the World Maker Faire.",
       "RSVPs encouraged - see event website.",
       "RSVP required - see event website.",
+      "In the event of rain, the event will be moved indoors at the museum.",
       "Free ticket distribution begins at 4 pm (please check - time is subject to change)."]
   end
 
