@@ -32,6 +32,7 @@ class EventsController < ApplicationController
       "Free film tickets are available after 4pm.",
       "Line forms at 5:30 and tickets are distributed at 6, 1 ticket/person.",
       "Line forms at 5 and tickets are distributed at 5:30, 1 ticket/person.",
+      "Tickets will be distributed 1 hour in advance, 1 ticket/person.",
       "Pre-screening performances at 7 pm; films begin at sundown.",
       "Outdoors; 3,100 seats - first-come, first-served.",
       "Outdoor screenings of operas; 3,100 seats - first come, first-served.",
@@ -82,7 +83,7 @@ class EventsController < ApplicationController
         x = x+1
       end
 
-    @locations = ["All boroughs", "Manhattan", "Brooklyn", "Queens", "the Bronx", "Staten Island"]
+    @locations = ["All of NYC", "Manhattan", "Brooklyn", "Queens", "the Bronx", "Staten Island"]
     @default_locations_selected = []
       if params[:locations_selected].class == Array
         @default_locations_selected = params[:locations_selected]
