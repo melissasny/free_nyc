@@ -1,4 +1,14 @@
-Event.create!([
+
+Category.create!([
+  {id: 1, name: "Concerts"},
+  {id: 2, name: "Movies"},
+  {id: 3, name: "Museums"},
+  {id: 4, name: "Theater"},
+  {id: 5, name: "Dance"},
+  {id: 6, name: "Exhibits"},
+  {id: 7, name: "Talks & Lectures"},
+  {id: 8, name: "Other"}
+])Event.create!([
   {name: "9/11 Memorial and Museum - free Museum entry", address: "180 Greenwich Street", borough: "Manhattan", days_of_week: "2", end_date: "160201", start_date: "150428", start_time: "5 - 8 pm, last entry at 6 pm", website: "https://www.911memorial.org/visit-911-memorial-museum", category_id: 3, notes: "Free ticket distribution begins at 4 pm (please check - time is subject to change)."},
   {name: "Americas Society: Portraiture Now: Staging the Self", address: "680 Park Avenue", borough: "Manhattan", days_of_week: "3456", end_date: "151017", start_date: "150610", start_time: "12 - 6 pm", website: "http://www.as-coa.org/portraiture-now-staging-self", category_id: 6, notes: "  "},
   {name: "Asia Society Discussion & Slideshow: ChinaFile Presents: Megacity Chongqing Now", address: "725 Park Avenue", borough: "Manhattan", days_of_week: "3", end_date: "150701", start_date: "150701", start_time: "6:30 - 8 pm", website: "http://asiasociety.org/new-york/events/chinafile-presents-megacity-chongqing-now", category_id: 7, notes: "RSVP required - see event website."},
@@ -12,7 +22,7 @@ Event.create!([
   {name: "Asia Society: Korean Movie Night: Scarlet Innocence", address: "725 Park Avenue", borough: "Manhattan", days_of_week: "2", end_date: "150728", start_date: "150728", start_time: "6:30 pm", website: "http://asiasociety.org/new-york/events/scarlet-innocence#node-41053", category_id: 2, notes: "Line forms at 5:30 and tickets are distributed at 6, 1 ticket/person."},
   {name: "Austrian Cultural Forum: Display of the Centuries: Frederick Kiesler and Contemporary Art", address: "11 East 52nd Street", borough: "Manhattan", days_of_week: "0123456", end_date: "150727", start_date: "150612", start_time: "10 am - 6 pm", website: "http://www.acfny.org/event/display-of-the-centuries-frederick-kiesler-and-contemporary-art/", category_id: 6, notes: "  "},
   {name: "BAMcinemaFest Outdoor Screening: Slacker", address: "Brooklyn Bridge Park, 334 Furman St.", borough: "Brooklyn", days_of_week: "4", end_date: "150625", start_date: "150625", start_time: "7 pm", website: "http://www.brooklynbridgepark.org/events/bamcinemafest-outdoor-screening-1", category_id: 2, notes: "Movie begins at sunset."},
-  {name: "BRIC FLIX: My Point of View:  Artist talk by Jason DaSilva", address: "647 Fulton Street", borough: "Brooklyn", days_of_week: "2", end_date: "150714", start_date: "150714", start_time: "7 - 9 pm", website: "http://bricartsmedia.org/events/community-media/bric-flix-my-point-of-view-co-presented-with-reelabilities-ny-disabilities?utm_source=BRIC+Master+Email+List&utm_campaign=4f7e4afa9e-BRIC+Happenings+7.9.15&utm_medium=email&utm_term=0_9587a10210-4f7e4afa9e-269156117", category_id: 7, notes: "RSVP required - see event website."},
+  {name: "BRIC FLIX: My Point of View: Artist talk by filmmaker / media artist / activist Jason DaSilva", address: "647 Fulton Street", borough: "Brooklyn", days_of_week: "2", end_date: "150714", start_date: "150714", start_time: "7 - 9 pm", website: "http://bricartsmedia.org/events/bric-flix-my-point-of-view-co-presented-with-reelabilities-ny-disabilities", category_id: 7, notes: "RSVP required - see event website."},
   {name: "BRIC: B-Side: Pape Armand Boye", address: "647 Fulton Street", borough: "Brooklyn", days_of_week: "4", end_date: "150625", start_date: "150625", start_time: "7:30 - 9 pm", website: "http://bricartsmedia.org/events/performing-arts/b-side-pape-armand-boye", category_id: 1, notes: "Doors open at 7:30. Seating is very limited, so arrive early."},
   {name: "BRIC: B-Side: Taj Weekes", address: "647 Fulton Street", borough: "Brooklyn", days_of_week: "4", end_date: "150716", start_date: "150716", start_time: "7:30 - 9 pm", website: "http://bricartsmedia.org/events/performing-arts/b-side-taj-weekes", category_id: 1, notes: "Doors open at 7:30. Seating is very limited, so arrive early."},
   {name: "Bargemusic presents \"Music in Motion\" Family Concerts", address: "2 Old Fulton St.", borough: "Brooklyn", days_of_week: "6", end_date: "150627", start_date: "150523", start_time: "4 - 5 pm", website: "http://bargemusic.org/calendar.html", category_id: 1, notes: "  "},
