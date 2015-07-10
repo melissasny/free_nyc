@@ -1,14 +1,4 @@
-
-Category.create!([
-  {id: 1, name: "Concerts"},
-  {id: 2, name: "Movies"},
-  {id: 3, name: "Museums"},
-  {id: 4, name: "Theater"},
-  {id: 5, name: "Dance"},
-  {id: 6, name: "Exhibits"},
-  {id: 7, name: "Talks & Lectures"},
-  {id: 8, name: "Other"}
-])Event.create!([
+Event.create!([
   {name: "9/11 Memorial and Museum - free Museum entry", address: "180 Greenwich Street", borough: "Manhattan", days_of_week: "2", end_date: "160201", start_date: "150428", start_time: "5 - 8 pm, last entry at 6 pm", website: "https://www.911memorial.org/visit-911-memorial-museum", category_id: 3, notes: "Free ticket distribution begins at 4 pm (please check - time is subject to change)."},
   {name: "Americas Society: Portraiture Now: Staging the Self", address: "680 Park Avenue", borough: "Manhattan", days_of_week: "3456", end_date: "151017", start_date: "150610", start_time: "12 - 6 pm", website: "http://www.as-coa.org/portraiture-now-staging-self", category_id: 6, notes: "  "},
   {name: "Asia Society Discussion & Slideshow: ChinaFile Presents: Megacity Chongqing Now", address: "725 Park Avenue", borough: "Manhattan", days_of_week: "3", end_date: "150701", start_date: "150701", start_time: "6:30 - 8 pm", website: "http://asiasociety.org/new-york/events/chinafile-presents-megacity-chongqing-now", category_id: 7, notes: "RSVP required - see event website."},
