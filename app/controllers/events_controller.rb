@@ -118,7 +118,7 @@ class EventsController < ApplicationController
 
         @locations_selected = params[:locations_selected]
 
-        if @locations_selected[0] === "All boroughs"
+        if @locations_selected[0] === "All of NYC"
           @locations_selected = @boroughs
         end
 
