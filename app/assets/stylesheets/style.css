@@ -121,7 +121,7 @@ button#intro {
     -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
     border-radius:0.5em 0.5em;	
-    border: 1px solid #FFD900;
+    border: 1px solid #0084B0;
 }
 
 a {
@@ -218,6 +218,8 @@ li p{
 	}
 	main {
 		margin-right: 1%;
+		margin-top: 3em;
+		margin-top: 3rem;
 	}
     h2, span{
     	display: none;
