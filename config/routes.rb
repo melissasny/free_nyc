@@ -15,6 +15,8 @@ FreeTest::Application.routes.draw do
 
   get "events/destroy"
 
+  get "events/intro"
+
   resources :events do
     member do
       get 'copy'
@@ -70,7 +72,7 @@ FreeTest::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'events#display'
+  root :to => 'events#intro'
 
   # See how all your routes lay out with "rake routes"
 

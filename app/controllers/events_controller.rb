@@ -70,6 +70,10 @@ class EventsController < ApplicationController
     @event = Event.find(params[:id])
   end
 
+  def intro
+    render :layout => 'intro.html.erb'
+  end
+
   def index
     @events = Event.all
   end

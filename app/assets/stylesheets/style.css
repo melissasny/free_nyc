@@ -40,7 +40,17 @@ header {
 	letter-spacing: -1px;
 }
 
-h1, h2, h3, h4, button, form label {
+main {
+	width:65%;
+	margin-left:17.5%;
+	padding: 0 1em;
+	padding: 0 1rem;
+	margin-top: 5em;
+	margin-top: 5rem;
+	border: 1px solid #5BE300;
+}
+
+h1, h2, h3, h4, button, form label, main {
 	font-weight: normal;
 }
 
@@ -49,16 +59,21 @@ h1 {
 	font-size: 1.7rem;
 }
 
+main, button#intro {
+	font-size: 1.3em;
+	font-size: 1.3rem;
+}
+
 h2 {
 	font-size: 1.5em;
 	font-size: 1.5rem;
 }
 
-body, h2, div#listing {
+body, h2, div#listing, ol {
 	color: #0084B0;
 }
 
-h1, form label, input[type=submit], a, button {
+h1, form label, input[type=submit], a, button, main {
 	color: #5BE300;
 }
 
@@ -98,6 +113,14 @@ button {
 	border-left-width: 3px;
 	border-top-width: 3px;
 	border-bottom-width: 3px;
+}
+
+button#intro {
+	margin-left: 40%;
+	 /*include browser-specific prefixes for CSS3 element*/
+    -webkit-border-radius: 0.5em 0.5em; 
+    -ie-border-radius: 0.5em 0.5em; 
+    border-radius:0.5em 0.5em;	
 }
 
 a {
@@ -159,7 +182,7 @@ li p{
 	body {
 		width: 90%;
 	}
-	header, div#display{
+	header, div#display, main{
 		width: 100%;
 		margin-left: 5%;
 		margin-right: 0;
@@ -184,7 +207,7 @@ li p{
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
-	header, div#display{
+	header, div#display, main{
 		margin-left: 1%;
 	}
     h2, span{
@@ -200,5 +223,8 @@ li p{
     input[type=submit] {
 	margin: 0.25em 0 0.5em 37%;
 	margin: 0.25rem 0 0.5rem 37%;
+	}
+	button#intro {
+		margin-left: 30%;
 	}
 }
