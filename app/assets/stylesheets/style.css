@@ -215,6 +215,9 @@ li p{
 	header, div#display, main{
 		margin-left: 1%;
 	}
+	main {
+		margin-right: 1%;
+	}
     h2, span{
     	display: none;
     }
