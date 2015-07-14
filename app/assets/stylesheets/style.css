@@ -121,6 +121,7 @@ button#intro {
     -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
     border-radius:0.5em 0.5em;	
+    border-color: #5BE300;
 }
 
 a {
@@ -201,6 +202,10 @@ li p{
 	#directions a{
 		margin-left: 20%;
 	}
+	
+	button#intro {
+		margin-left: 27%;
+	}
 }
 
 @media only screen and (max-width:500px){
@@ -235,8 +240,5 @@ li p{
 	main {
 		margin-top: 2em;
 		margin-top: 2rem;
-	}
-	button#intro {
-		margin-left: 27%;
 	}
 }
