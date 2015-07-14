@@ -185,6 +185,8 @@ li p{
 	}
 	main {
 		width: 93%;
+		margin-top: 3em;
+		margin-top: 3rem;
 	}
 	header, div#display {
 		width: 100%;
@@ -218,8 +220,6 @@ li p{
 	}
 	main {
 		margin-right: 1%;
-		margin-top: 3em;
-		margin-top: 3rem;
 	}
     h2, span{
     	display: none;
