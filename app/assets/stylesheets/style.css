@@ -202,9 +202,6 @@ li p{
 	#directions a{
 		margin-left: 20%;
 	}
-	button#intro {
-		margin-left: 30%;
-	}
 }
 
 @media only screen and (max-width:500px){
