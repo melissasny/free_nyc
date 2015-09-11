@@ -26,7 +26,7 @@ class EventsController < ApplicationController
       "Gates open at 6 pm.",
       "Gates open at 7 pm.",
       "The Sculpture Garden opens at 7 pm. In the event of rain, concerts will be held in the Gund Garden Lobby.",
-      "Doors open at 7:30. Seating is very limited, so arrive early.",
+      "RSVP requested - see event website. Doors open at 7:30. Seating is very limited, so arrive early.",
       "Doors open at 6:30.",
       "Gates open at 3 pm.",
       "Free film tickets are available after 4pm.",
@@ -68,8 +68,10 @@ class EventsController < ApplicationController
       "Reservation required; call 212.847.9740 or email event_reservation@amscan.org",
       "RSVPs encouraged - see event website.",
       "RSVP required - see event website.",
+      "RSVP required - see event website. Arrive early, seating is not guaranteed.",
       "Tickets required - see event website for details.",
       "Reservation required; go to www.rooftopconcertseries.eventbrite.com",
+      "See event website for specific events, times, locations and bookend events from Sept 14 - 21",
       "In the event of rain, the event will be moved indoors at the museum.",
       "Free ticket distribution begins at 4 pm (please check - time is subject to change)."]
   end
