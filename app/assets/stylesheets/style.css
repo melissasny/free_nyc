@@ -32,7 +32,8 @@ body {
 
 body.imagepage{
 	background: #151B54 url(/assets/city-night-moonrise.jpg) fixed no-repeat;
-	background-size: cover;
+	background-position: 45% 0%;
+	background-size: contain;
 }
 
 header {
