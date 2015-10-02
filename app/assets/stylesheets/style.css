@@ -22,6 +22,10 @@ div#display, form label, button, input[type=submit], h3 {
 	font-size: 1.4rem;
 }
 
+html, body{
+	height: 115%;
+}
+
 body {
 	width: 100%;
 	max-width: 100%;
