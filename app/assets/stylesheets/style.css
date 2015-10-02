@@ -22,10 +22,6 @@ div#display, form label, button, input[type=submit], h3 {
 	font-size: 1.4rem;
 }
 
-html, body{
-	height: 115%;
-}
-
 body {
 	width: 100%;
 	max-width: 100%;
@@ -36,8 +32,8 @@ body {
 
 body.imagepage{
 	background: #151B54 url(/assets/city-night-moonrise.jpg) fixed no-repeat;
-	background-position: 45% 0%;
-	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 header {
