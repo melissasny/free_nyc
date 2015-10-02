@@ -84,6 +84,7 @@ class EventsController < ApplicationController
   end
 
   def intro
+    @background_image_page = true
     render :layout => 'intro.html.erb'
   end
 
@@ -92,6 +93,7 @@ class EventsController < ApplicationController
   end
 
   def display
+    @background_image_page = true
     @categories = Category.joins(:events).uniq
     @categories_to_choose_from = ["All"]
     x = 0
@@ -182,7 +184,6 @@ class EventsController < ApplicationController
 
   def destroy
     @event.destroy
-
     redirect_to events_path, notice: 'Event deleted successfully.'
   end
 
