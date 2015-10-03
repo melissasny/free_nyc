@@ -31,10 +31,10 @@ body {
 }
 
 body.imagepage{
-	background: #151B54 url(/assets/city-night-moonrise-compressed-normal.jpg) fixed no-repeat;
-	background-attachment: fixed;
+	background: #151B54 url(/assets/city-night-moonrise-compressed.jpg) no-repeat;
 /*	background-size: cover; */
 	background-size: 100vw 100vh;
+	background-attachment: fixed;
 }
 
 header {
