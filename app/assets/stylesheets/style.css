@@ -32,7 +32,6 @@ body {
 
 body.imagepage{
 	background: #151B54 url(/assets/city-night-moonrise-compressed.jpg) repeat-y;
-/*	background-size: cover; */
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
 }
@@ -48,15 +47,12 @@ header {
 }
 
 main {
-/*	width:65%;
-	margin-left:17.5%; */
 	width: 50%;
 	margin-left: 25%;
 	padding: 0 1em;
 	padding: 0 1rem;
 	margin-top: 5em;
 	margin-top: 5rem;
-	/*border: 1px solid #5BE300;*/
 	border: 1px solid #FFF;
 }
 
@@ -69,7 +65,7 @@ h1 {
 	font-size: 1.7rem;
 }
 
-main, button#intro {
+main, p#intro {
 	font-size: 1.3em;
 	font-size: 1.3rem;
 }
@@ -88,17 +84,12 @@ body, h1, a, form label, button, main{
 	color: #FFF;
 }
 
-/*input[type=submit] {
-	/*green*/
-/*	color: #09A603;
-}*/
-
-h4 a, button#intro a, #directions a, input[type=submit]{
+h4 a, p#intro a, #directions a, input[type=submit]{
 	/*canary yellow*/
 	color: #ffff00;
 }
 
-main, form label, div#listing, button#intro, input[type=submit]{
+main, form label, div#listing, p#intro, input[type=submit]{
 	/*include browser-specific prefixes for CSS3 element*/
 	 background-color: rgb(21,27,84);
      background-color: -webkit-rgba(21,27,84,0.6);
@@ -140,8 +131,10 @@ button {
 	border-bottom-width: 3px;
 }
 
-button#intro {
+p#intro {
+	width: 17%;
 	margin-left: 40%;
+	padding: 0 2%;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
     -ie-border-radius: 0.5em 0.5em; 
@@ -167,7 +160,6 @@ input[type=submit] {
 	margin: 0.5rem 0 0.5rem 44%; 
 	padding: 0.25em 0.5em;
 	padding: 0.25rem 0.5rem;
-	/*background: #000;*/
 	border:1px solid #FFF;
 	 /*include browser-specific prefixes for CSS3 element*/
     -webkit-border-radius: 0.5em 0.5em; 
@@ -263,7 +255,7 @@ li p{
 		margin-top: 2em;
 		margin-top: 2rem;
 	}
-	button#intro {
+	p#intro {
 		margin-left: 27%;
 	}
 }
