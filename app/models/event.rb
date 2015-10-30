@@ -1,5 +1,5 @@
 class Event < ActiveRecord::Base
-attr_accessible :address, :borough, :days_of_week, :end_date, :name, :start_date, :start_time, :website, :category_id, :notes
+#attr_accessible :address, :borough, :days_of_week, :end_date, :name, :start_date, :start_time, :website, :category_id, :notes
 
   validates_presence_of :name
   validates_presence_of :website
